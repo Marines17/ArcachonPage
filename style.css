@@ -1,0 +1,77 @@
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #27527a;
+}
+
+hr {
+  margin: 0 50px;
+}
+
+h2 {
+  text-align: center;
+  color: #53777e;
+  font-weight: lighter;
+}
+
+img {
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+  min-width: 30%;
+}
+
+p {
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+a,
+button,
+.myName {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+  font-size: medium;
+}
+
+button {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  background: #27527a;
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #78abb6;
+}
+
+.wholePage {
+  display: block;
+  min-width: 300px;
+  margin: 20%;
+  margin-top: 20px;
+  padding: 20px;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(91, 173, 254, 0.46) 0%,
+    rgba(91, 224, 254, 0.46) 47.2%,
+    rgba(170, 254, 235, 0.43) 90%
+  );
+  border-radius: 10px;
+}
+
+.myName {
+  font-size: 10px;
+}
